@@ -1,0 +1,829 @@
+/* ======================================================================== */
+/* Main Navigation Bar - Amr Ahmed Abd El Rahman - 162697 */
+/* ======================================================================== */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: monospace;
+}
+
+.row {
+    max-width: 1200px;
+    margin: auto;
+
+}
+
+.main-nav {
+    float: right;
+    list-style: none;
+    margin-top: 30px;
+}
+
+.main-nav li {
+    display: inline-block;
+}
+
+.main-nav li.active a {
+    border: 1px solid white;
+    display: inline-block;
+
+
+}
+
+.main-nav li a:hover {
+    border: transparent;
+    display: inline-block;
+}
+
+
+.main-nav li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 25px;
+    font-family: "Roboto", sans-serif;
+    font-size: 17px;
+}
+
+.MiddleText {
+    position: absolute;
+    width: 1200px;
+    margin-left: 0px;
+    margin-top: 0px;
+
+}
+
+
+h1 {
+    color: white;
+    text-transform: uppercase;
+    font-size: 70px;
+    text-align: center;
+    margin-top: 180px;
+
+}
+
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../BackGroundImage/pic1.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.button {
+    margin-top: 80px;
+    margin-left: 440px;
+}
+
+.btn {
+    border: 1px solid white;
+    padding: 10px 30px;
+    color: white;
+    text-decoration: none;
+    margin-right: 5px;
+    font-size: 13px;
+    text-transform: uppercase;
+}
+
+.btn-one {
+    background-color: darkcyan;
+    font-family: "Roboto", sans-serif;
+}
+
+.btn-two {
+    font-family: "Roboto", sans-serif;
+}
+
+
+.btn-two:hover {
+    background-color: darkorange;
+    transition: all 0.5s ease-in;
+}
+
+.logo img {
+    width: 220px;
+    height: auto;
+}
+
+
+/* ======================================================================== */
+/* Sticky Social Media Bar - Amr Ahmed Abd El Rahman - 162697 */
+/* ======================================================================== */
+.icon-bar {
+    position: fixed;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+/* Style the icon bar links */
+.icon-bar a {
+    display: block;
+    text-align: center;
+    padding: 16px;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 20px;
+}
+
+/* Style the social media icons with color, if you want */
+.icon-bar a:hover {
+    background-color: #000;
+}
+
+.facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.google {
+    background: #dd4b39;
+    color: white;
+}
+
+.linkedin {
+    background: #007bb5;
+    color: white;
+}
+
+.youtube {
+    background: #bb0000;
+    color: white;
+}
+
+#fixedbutton {
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+}
+
+
+
+
+/* ======================================================================== */
+/* Professors Area Index Page - Amr Ahmed Abd El Rahman - 162697 */
+/* ======================================================================== */
+
+.ProfessorsArea {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../images/slide-four.jpg);
+    height: 100vh;
+    background-attachment: fixed;
+
+}
+
+.column {
+    float: left;
+    width: 16%;
+    margin-left: 90px;
+    margin-right: auto;
+    margin-bottom: 16px;
+    margin-top: 50px;
+    padding: 0 8px;
+
+}
+
+/* Add some shadows to create a card effect */
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+
+}
+
+/* Some left and right padding inside the container */
+.container {
+    padding: 0 16px;
+}
+
+.title {
+    color: floralwhite;
+    font-family: "Roboto", sans-serif;
+
+}
+
+.ProfessorsNames {
+    color: floralwhite;
+}
+
+
+/* Set a style for Professor's buttons */
+.button1 {
+    background-color: darkcyan;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+
+.button1:hover {
+    opacity: 1;
+    background-color: #4CAF50;
+    transition: all 0.5s ease-in;
+}
+
+
+
+
+/* ======================================================================== */
+/* SlideShow - Amr Ahmed Abd El Rahman - 162697 */
+/* ======================================================================== */
+
+
+#slideshow {
+    margin: 80px auto;
+    position: relative;
+    width: 900px;
+    height: 400px;
+    padding: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+}
+
+#slideshow > div {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+}
+
+
+
+/* ======================================================================== */
+/* Main BackGround Image For The Website Parallax Effect - Amr Ahmed Abd El Rahman - 162697 */
+/* ======================================================================== */
+
+
+.BackGroundTest {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../images/slide-three.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+
+
+
+/* ======================================================================== */
+/* Change Password User Panel- Delete Account User Panel - Amr Ahmed Abd El Rahman - 162697 */
+/* ======================================================================== */
+
+#AccountinfoUserPanel {
+    color: darkorange;
+    padding-left: 250px;
+    font-weight: bold;
+    font-family: "Roboto", sans-serif;
+    font-size: 40px;
+}
+
+#user_info_UserPanel {
+    color: darkorange;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 70px;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+}
+
+#DeleteYourAccountText {
+    color: darkorange;
+    padding-left: 250px;
+    font-weight: bold;
+    font-family: "Roboto", sans-serif;
+    font-size: 40px;
+}
+
+#DeleteAccButton {
+    width: 20%;
+    background-color: darkcyan;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 350px;
+
+}
+
+#ChangePasswordText {
+    color: darkorange;
+    padding-left: 220px;
+    font-weight: bold;
+    font-family: "Roboto", sans-serif;
+    font-size: 40px;
+
+}
+
+.ChangePassInput {
+    width: 40%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-left: 250px;
+
+
+}
+
+.ChangePassButton {
+    width: 20%;
+    background-color: darkcyan;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 350px;
+
+}
+
+
+/* ======================================================================== */
+/* Unique Experiance - Below Index Section - Amr Ahmed Abd El Rahman - 162697 */
+/* ======================================================================== */
+
+.image-container {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../images/Kmember.jpg");
+    background-size: cover;
+    position: relative;
+    height: 300px;
+    background-attachment: fixed;
+
+}
+
+.text {
+    background-color: floralwhite;
+    color: black;
+    font-size: 5vw;
+    /* Responsive font size */
+    font-weight: bold;
+    margin: 0 auto;
+    /* Center the text container */
+    padding: 10px;
+    width: 50%;
+    text-align: center;
+    /* Center text */
+    position: absolute;
+    /* Position text */
+    top: 50%;
+    /* Position text in the middle */
+    left: 50%;
+    /* Position text in the middle */
+    transform: translate(-50%, -50%);
+    /* Position text in the middle */
+    mix-blend-mode: screen;
+    /* This makes the cutout text possible */
+}
+
+
+
+
+/* ======================================================================== */
+/* ComingSoon Styling in Clinics Page - Amr Ahmed Abd El Rahman - 162697 */
+/* ======================================================================== */
+
+
+.ComingSoonContainer {
+    color: white;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 30px;
+}
+
+
+.middle {
+    top: 50%;
+    left: 50%;
+    transform: translate(0%, 50%);
+    text-align: center;
+}
+
+hr {
+    margin: auto;
+    width: 40%;
+}
+
+#ComingSoon {
+    padding-top: 20px;
+    font-size: 30px;
+    font-family: "Courier New", Courier, monospace;
+    font-weight: bold;
+}
+
+
+
+
+/* ======================================================================== */
+/* Contact Us Light Box CSS - Amr Ahmed Abd El Rahman - 162697 */
+/* ======================================================================== */
+
+
+.ContactUsWords {
+    font-family: "Roboto", sans-serif;
+    font-size: 12px;
+    color: darkorange;
+}
+
+.ContactUsField {
+    max-width: 400px;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+
+#contact input[type="text"],
+#contact input[type="email"],
+#contact input[type="tel"],
+#contact input[type="url"],
+#contact textarea,
+#contact button[type="submit"] {
+    font: 400 12px/16px "Roboto", sans-serif;
+}
+
+#contact {
+    background: #F9F9F9;
+    padding: 25px;
+    margin: 50px 0;
+}
+
+#contact h3 {
+    color: darkorange;
+    display: block;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+#contact h4 {
+    margin: 5px 0 15px;
+    display: block;
+    font-size: 13px;
+}
+
+fieldset {
+    border: medium none !important;
+    margin: 0 0 10px;
+    min-width: 100%;
+    padding: 0;
+    width: 100%;
+}
+
+#contact input[type="text"],
+#contact input[type="email"],
+#contact input[type="tel"],
+#contact input[type="url"],
+#contact textarea {
+    width: 90%;
+    border: 1px solid #CCC;
+    background: #FFF;
+    margin: 0 0 5px;
+    padding: 10px;
+}
+
+#contact input[type="text"]:hover,
+#contact input[type="email"]:hover,
+#contact input[type="tel"]:hover,
+#contact input[type="url"]:hover,
+#contact textarea:hover {
+    -webkit-transition: border-color 0.3s ease-in-out;
+    -moz-transition: border-color 0.3s ease-in-out;
+    transition: border-color 0.3s ease-in-out;
+    border: 1px solid #AAA;
+}
+
+#contact textarea {
+    height: 100px;
+    max-width: 100%;
+    resize: none;
+}
+
+#contact button[type="submit"] {
+    cursor: pointer;
+    width: 100%;
+    border: none;
+    background: darkcyan;
+    color: #FFF;
+    margin: 0 0 5px;
+    padding: 10px;
+    font-size: 15px;
+}
+
+#contact button[type="submit"]:hover {
+    background: darkcyan;
+    -webkit-transition: background 0.3s ease-in-out;
+    -moz-transition: background 0.3s ease-in-out;
+    transition: background-color 0.3s ease-in-out;
+}
+
+#contact button[type="submit"]:active {
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+#contact input:focus,
+#contact textarea:focus {
+    outline: 0;
+    border: 2px solid darkcyan;
+}
+
+::-webkit-input-placeholder {
+    color: darkgray !important;
+}
+
+
+
+
+/* ======================================================================== */
+/* NotLoggedIn - Amr Ahmed Abd El Rahman - 162697 */
+/* ======================================================================== */
+
+
+
+#NotLoggedIn {
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-family: "Roboto", sans-serif;
+    font-size: 40px;
+    padding-bottom: 20px;
+    margin-top: 300px;
+}
+
+
+/* ======================================================================== */
+/* Sticky Right-Bottom Sign-Register Buttons - Amr Ahmed Abd El Rahman - 162697 */
+/* ======================================================================== */
+
+.SignNavBar {
+    background-color: transparent;
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Style the links inside the navigation bar */
+.SignNavBar a {
+    float: right;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: "Roboto", sans-serif;
+
+}
+
+/* Change the color of links on hover */
+.SignNavBar a:hover {
+    background-color: darkorange;
+    color: white;
+    transition: all 0.5s ease-in;
+}
+
+/* Add a color to the active/current link */
+.SignNavBar a.ActiveSign {
+    background-color: darkcyan;
+    color: white;
+}
+
+.SignNavBar a.ActiveFooter {
+    background-color: darkorange;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+/* ======================================================================== */
+/* Subscription Panel - Amr Ahmed Abd El Rahman - 162697 */
+/* ======================================================================== */
+
+
+
+
+.Subscription {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../images/ResearchHost.jpg);
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    margin: 0 auto 0;
+    color: #444;
+    font-family: 'PT Sans', arial, sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+#subscribebox {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    padding: 20px;
+    font-family: 'PT Sans', sans-serif;
+    width: 300px;
+}
+
+.widget_follow_subscribe .widget-detail {
+    padding: 36px 30px 40px 30px;
+}
+
+#subscribebox p {
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    font-weight: 700;
+}
+
+.follow-subscribe-social {
+    margin: 0 0 15px;
+    padding: 0 0 14px;
+    border-bottom: #858585 solid 1px;
+}
+
+.follow-subscribe-social ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.follow-subscribe-social ul li {
+    display: inline;
+    margin: 0 15px 0 0;
+    border-bottom: none;
+}
+
+.follow-subscribe-social ul li:last-child {
+    margin: 0;
+}
+
+.follow-subscribe-social ul li a {
+    font-size: 17px;
+    color: #cacaca;
+
+    -webkit-transition: color 0.2s ease-in-out;
+    -moz-transition: color 0.2s ease-in-out;
+    -ms-transition: color 0.2s ease-in-out;
+    -o-transition: color 0.2s ease-in-out;
+    transition: color 0.2s ease-in-out;
+}
+
+.follow-subscribe-social ul li a:hover {
+    color: #fff;
+}
+
+form.subscribe {
+    margin-top: -7px;
+}
+
+form.subscribe input {
+    display: block;
+    width: 100%;
+}
+
+.subscribe-email {
+    height: 45px;
+    border: none;
+    margin: 0 0 10px;
+    margin-top: 20px;
+    font-size: 0.928571em;
+    background-color: #ffffff;
+    text-align: center;
+    color: efefef;
+}
+
+.subscribe-email:focus {
+    outline: 0;
+}
+
+/* ===== Placeholder color ===== */
+form.subscribe .placeholder {
+    /* Internet Explorer 9 */
+    color: #cacaca;
+}
+
+form.subscribe input:-ms-input-placeholder {
+    /* Internet Explorer 10+ */
+    color: #cacaca;
+}
+
+form.subscribe input::-webkit-input-placeholder {
+    /* WebKit browsers */
+    color: #cacaca;
+}
+
+form.subscribe input:-moz-placeholder {
+    /* Mozilla Firefox 4 to 18 */
+    color: #fafafa;
+}
+
+form.subscribe input::-moz-placeholder {
+    /* Mozilla Firefox 19+ */
+    color: #fafafa;
+}
+
+.subscribe-button {
+    height: 45px;
+    font-weight: 700;
+    font-size: 16px;
+    color: #fff;
+    text-transform: uppercase;
+    border: none;
+    background-color: #ea5217;
+
+    -webkit-transition: background-color 0.2s ease-in-out;
+    -moz-transition: background-color 0.2s ease-in-out;
+    -ms-transition: background-color 0.2s ease-in-out;
+    -o-transition: background-color 0.2s ease-in-out;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.subscribe-button:hover {
+    background-color: #f4b458;
+}
+
+.subscribe-button:focus {
+    outline: 0;
+}
+
+.creadit a {
+    background: #F35D5C;
+    color: white;
+    margin-top: 30px;
+    padding: 20px;
+    font-size: 15px;
+}
+
+
+
+/* ====================================== */
+/* By Mohamed159588 & Amr Ahmed Abd El Rahman 162697*/
+
+#lightbox2 {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    background: rgba(0, 0, 0, 0.3);
+    display: none;
+
+
+}
+
+#lightbox2.open {
+    display: block;
+
+}
+
+#lightbox2_content {
+    position: absolute;
+    width: 400px;
+    height: 200px;
+    background: white;
+    border-radius: 5px;
+    left: 55%;
+    top: 50%;
+    margin-left: -250px;
+    margin-top: -250px;
+    text-align: center;
+}
+
+#close2 {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    background: black;
+    height: 20px;
+    width: 20px;
+    border-radius: 15px;
+    text-align: center;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+#Logout {
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-family: "Roboto", sans-serif;
+    font-size: 40px;
+    padding-bottom: 20px;
+    margin-top: 300px;
+
+}

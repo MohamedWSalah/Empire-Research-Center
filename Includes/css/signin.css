@@ -1,0 +1,195 @@
+/* By Mohamed 159588 */
+.login {
+    position: sticky;
+    top: calc(50% - 75px);
+    left: calc(50% - 110px);
+    height: 150px;
+    width: 350px;
+    padding: 10px;
+
+}
+
+.login input[type=text] {
+    width: 250px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid darkorange;
+    border-radius: 2px;
+    color: black;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 4px;
+
+}
+
+.login input[type=password] {
+    width: 250px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid darkorange;
+    border-radius: 2px;
+    color: black;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 4px;
+    margin-top: 10px;
+}
+
+.login input[type=button] {
+    width: 250px;
+    height: 35px;
+    background: white;
+    border: 1px solid black;
+    cursor: pointer;
+    border-radius: 2px;
+    color: black;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 6px;
+    margin-top: 10px;
+}
+
+.login input[type=submit] {
+    width: 250px;
+    height: 35px;
+    background: white;
+    border: 1px solid black;
+    cursor: pointer;
+    border-radius: 2px;
+    color: black;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 6px;
+    margin-top: 10px;
+}
+
+
+.login input[type=button]:active {
+    opacity: 0.6;
+}
+
+.login input[type=text]:focus {
+    outline: none;
+    border: 1px solid rgba(255, 255, 255, 0.9);
+}
+
+.login input[type=password]:focus {
+    outline: none;
+    border: 1px solid rgba(255, 255, 255, 0.9);
+}
+
+
+::-webkit-input-placeholder {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+::-moz-input-placeholder {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.CapsLockWarningText {
+    position: absolute;
+    top: calc(50% - 150px);
+    left: calc(50% - 128px);
+    height: 150px;
+    width: 350px;
+    padding: 10px;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    display: none;
+    color: red;
+
+}
+
+.CapsLockWarningTextForContact {
+    position: relative;
+    top: calc(40% - 100px);
+    left: calc(60% - 100px);
+    height: 150px;
+    width: 350px;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    display: none;
+    color: darkorange;
+    font-weight: bold;
+
+}
+
+.LoggingLoading {
+    display: block;
+}
+
+.EmpireLoading {
+    display: block;
+}
+
+/* ================Amr Ahmed Abd EL Rahman 162697 ===================== */
+
+
+#lightbox {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    background: rgba(0, 0, 0, 0.3);
+    display: none;
+}
+
+#lightbox.open {
+    display: block;
+}
+
+#lightbox_content {
+    position: absolute;
+    width: 400px;
+    height: 200px;
+    background: white;
+    border-radius: 5px;
+    left: 55%;
+    top: 50%;
+    margin-left: -250px;
+    margin-top: -200px;
+    text-align: center;
+}
+
+#close {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    background: black;
+    height: 20px;
+    width: 20px;
+    border-radius: 15px;
+    text-align: center;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.EAdd {
+    color: black;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    padding: 30px;
+}
+
+/* By Mohamed 159588 */
+
+.EmpireTextt {
+    text-align: center;
+    font-weight: bold;
+    font-family: "Roboto", sans-serif;
+    font-size: 40px;
+    padding-bottom: 20px;
+
+}
+
+
+
+
+/* By Mohamed 159588 */
+/*============================================*/
