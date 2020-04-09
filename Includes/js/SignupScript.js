@@ -85,7 +85,7 @@ return r;
 }
 
 
-//Coming part made by Mohamed159588 and Amr162697
+//By Mohamed159588 and Amr162697
 
 var X =0;
 var SI = 'BECOME AN EMPIRE MEMBER';
